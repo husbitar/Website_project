@@ -1,0 +1,24 @@
+div {
+    width: 150px;
+    height: 150px;
+    border: 1px solid red;
+    border-radius: 100%;
+    background-image: url("../../dog.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+img {
+    border: 30px groove red;
+    /*border-radius: 100%;*/
+    padding: 50px;
+    margin: 30px;
+}
+.d1 {
+    border-radius: 100%;
+    border: 30px dashed black;
+}
+.d2 {
+    border: 30px dotted blue;
+}
+
