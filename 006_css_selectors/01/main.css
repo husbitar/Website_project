@@ -1,0 +1,14 @@
+div{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(30, 159, 210, 0.43);
+    display: inline-block;
+    margin: 0;
+}
+div:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+div:active{
+    background-color: tomato;
+}

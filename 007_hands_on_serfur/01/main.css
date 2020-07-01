@@ -1,0 +1,52 @@
+html{
+    background-color: #747386;
+}
+body{
+    width: 60%;
+    height: 80%;
+    background-color: #f3f3ef;;
+    border:10px solid black;
+    margin: 0 auto;
+}
+#hussein{
+    color: tomato;
+}
+.hh1 {
+    color: #47ff7b;}
+
+h1 {
+    font-size: 3vw;
+    color: #2e3238;
+    margin: 10px;
+}
+
+p{
+    margin: 20px;
+    font-family: "Bitstream Vera Sans Mono" ;
+    color: black;
+    font-size: 2vw;
+    font-style: italic;
+    font: bold;
+    font-variant: small-caps;
+}
+p:first-letter{
+    font-size: larger;
+    color: blue;
+}p:first-line{
+    font-weight: bold;
+    color: #47afff;
+ }
+
+#hussein::after{
+    content: "--->";
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 20px groove #ffbf00;
+    /*background-image: url("surf.jpg");*/
+}

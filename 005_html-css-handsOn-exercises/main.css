@@ -1,0 +1,25 @@
+div{
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+    padding: inherit;
+    box-sizing: border-box;
+    /*text-align: center;*/
+    background-image: url("mm12.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
+.ndiv{
+    width: 400px;
+    height: 200px;
+    border: 10px dashed red;
+    margin: 20px auto;
+    padding: inherit;
+    box-sizing: border-box;
+    /*text-align: centr;*/
+    text-align: justify-all;
+    background-image: url("mm12.jpg");
+    background-size: contain;
+    background-repeat: round;
+}
