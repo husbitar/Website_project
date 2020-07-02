@@ -1,5 +1,6 @@
 html{
     background-color: #747386;
+    font-family: 'Dancing Script', cursive;
 }
 body{
     width: 60%;
@@ -12,9 +13,13 @@ body{
     color: tomato;
 }
 .hh1 {
-    color: #47ff7b;}
+    color: #47ff7b;
+    text-shadow: 22px 13px 10px black;
+    text-align: center;
+}
 
 h1 {
+    font-weight: 400;
     font-size: 3vw;
     color: #2e3238;
     margin: 10px;
@@ -22,17 +27,27 @@ h1 {
 
 p{
     margin: 20px;
-    font-family: "Bitstream Vera Sans Mono" ;
+    /*max-width: 800px;*/
+    /*font-family: "Bitstream Vera Sans Mono" ;*/
     color: black;
-    font-size: 2vw;
+    font-size: 1vw;
+    text-indent: 2rem;
     font-style: italic;
     font: bold;
-    font-variant: small-caps;
+    /*font-variant: small-caps;*/
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: line-through;
 }
 p:first-letter{
     font-size: larger;
     color: blue;
 }p:first-line{
+    text-transform: uppercase;
+    letter-spacing: 1rem;
     font-weight: bold;
     color: #47afff;
  }

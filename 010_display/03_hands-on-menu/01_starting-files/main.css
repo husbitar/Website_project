@@ -1,0 +1,32 @@
+
+
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+    /*display: inline-block;*/
+}
+
+li {
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+    border: 2px solid red;
+    display: inline-block;
+}
+.hlist {
+    /*border: 2px slid red;*/
+    border-radius: 50px;
+    display: block;
+}
+a{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    background-color: #747386;
+}
