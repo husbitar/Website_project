@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 100%;
+    border: 2px solid blue;
+}
+
+body {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
