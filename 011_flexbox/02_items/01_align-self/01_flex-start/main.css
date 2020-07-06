@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-flow: row wrap;
-    align-items: flex-end;
+    align-items: center;
     /* formatting */
     height: 500px;
     border: 5px solid red;
@@ -10,7 +10,7 @@ body {
 div {
     /* formatting */
     width: 200px;
-    height: 100px;
+    /*height: 100px;*/
     margin: 1em;
     border: 1px solid red;
     background-color: darkgray;
@@ -18,5 +18,5 @@ div {
 }
 
 #deviate {
-    align-self: flex-start;
+    align-self: stretch;
 }

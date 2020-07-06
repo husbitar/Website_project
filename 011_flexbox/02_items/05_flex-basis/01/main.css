@@ -5,6 +5,7 @@ body {
 div {
     border: 2px solid black;
     height: 100px;
+    width: 400px;
     flex-basis: 400px;
 }
 
@@ -14,8 +15,8 @@ div {
 }
 
 .flex2 {
-    flex-grow: 8;
-    flex-shrink: 8;
+    flex-grow: 4;
+    flex-shrink: 4;
 }
 
 /*

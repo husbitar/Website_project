@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-flow: row wrap;
 }
 
 div {
@@ -12,5 +13,6 @@ div {
 }
 
 .flex2 {
-    flex-grow: 2;
+    flex-grow: 1;
+    width: 50%;
 }
