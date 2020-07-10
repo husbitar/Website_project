@@ -1,0 +1,27 @@
+html,body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+
+}
+*{
+    border: 2px dashed hotpink;
+    padding: 10px;
+    margin: 20px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("01.png");
+    background-color: lightskyblue;;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /*background-position:bottom ;*/
+    background-origin: content-box;
+    /*height: 100vh;*/
+}
+h1{
+    color: #747386;
+    font-size: 4rem;
+}

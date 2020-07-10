@@ -1,0 +1,13 @@
+
+
+.cont2 , .cont3, .cont4 {
+
+    background-color: #d5dfef;
+    width: 33.33%;
+    order: 3;
+}
+
+.cont5, .cont6 {
+    background-color: #8b8e93;
+    width: 50%;
+}

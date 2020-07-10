@@ -1,0 +1,13 @@
+HTML, BODY, P{
+    padding: 0;
+    margin: 0;
+    border: 2px dashed skyblue;
+}
+footer{
+    position: fixed;
+    width: 80%;
+    bottom: 10px;
+    height: 50px;
+    left: 20px;
+    background: #00FF00;
+}

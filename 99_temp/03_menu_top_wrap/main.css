@@ -1,0 +1,27 @@
+html, body, ul, li, a, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+a {
+    display: block;
+}
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #00FF00;
+    border: 10px solid  red;
+    /*background-image: url("../../../IMG_2910.JPG") ;*/
+}
+p{
+    font-size: 4rem;
+}
