@@ -1,0 +1,15 @@
+
+h1{
+   font-size: 3rem;
+
+
+
+}
+#idx-atf {
+
+    background-image: url("img/background-photo.jpg");
+
+}
+#idx-atf>div{
+    height: 20vh;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg  xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="15.429" height="12.28" viewBox="0 0 15.429 12.28" style="overflow:visible;enable-background:new 0 0 15.429 12.28"
+	 xml:space="preserve">
+	<style type="text/css">
+
+	</style>
+
+		<g id="Layer_1">
+			<text transform="matrix(1 0 0 1 0 10.5601)"><tspan x="0" y="0" class="st1 st0"></tspan></text>
+		</g>
+	</svg>
