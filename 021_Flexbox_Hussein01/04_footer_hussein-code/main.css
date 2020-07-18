@@ -1,0 +1,66 @@
+html,body,div, button, footer, svg, #save_spin {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    color: #747386;
+    font-size: 4vw;
+}
+svg , #save_spin {
+    font-size: 1.5em;
+    color: currentColor;
+}
+#ATF{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+}
+footer{
+    width: 80%;
+    margin-top: 4rem;
+    height: 4rem;
+    border-top: 1px solid #322727;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+footer h2 {
+    padding-left: 1rem;
+}
+footer nav{
+    width: 60%;
+    /*border: 1px dotted red;*/
+    display: flex;
+    justify-content: flex-end;
+}
+footer button{
+    color: skyblue;
+    padding: .2rem;
+    margin: 1rem;
+}
+footer button:hover{
+    color: white;
+    background-color: #47afff;
+}
+
+
+
+#save_spin{
+
+    /*border: 1px dotted red;*/
+    animation-name: spininball;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+}
+@keyframes spininball {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

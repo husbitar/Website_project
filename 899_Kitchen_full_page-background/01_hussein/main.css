@@ -59,7 +59,11 @@ header nav{
 #moble_menu h1{
     padding-left: 1rem;
 }
-
+.trans1{
+    transition-property: all;
+    transition-duration: 800ms;
+    transition-timing-function: ease;
+}
 header div{
     /*display: flex;*/
     /*justify-content: right;*/

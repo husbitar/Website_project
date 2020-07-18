@@ -15,7 +15,10 @@ h1{
 }
 
 
-
+button{
+    margin-top: 4rem;
+    /*border: 4px solid red;*/
+}
 header nav {
     display: flex;
     flex-flow: row nowrap;

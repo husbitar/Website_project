@@ -1,0 +1,36 @@
+html, body, nav, ul, li {
+    padding: 0;
+    /*border: 0;*/
+    margin: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    font-size: 2vw ;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .1rem solid darkgray;
+    /*width: 100%;*/
+    width: 40rem;
+}
+li{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    height: 1.6rem;
+    border: 0;
+    /*border: 1px solid black;*/
+    /*margin: 20px;*/
+    /*flex-grow: 2;*/
+    /*border-bottom: .2rem solid transparent;*/
+}
+li:hover{
+    border-bottom: 1px solid navy;
+    cursor: pointer;
+}
