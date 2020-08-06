@@ -147,11 +147,62 @@ header nav a{
     padding-top: 20px;
 
 }
+
+
 button {
     color: rgb(202, 250,234);;
     font-size: 1.4rem;
     font-size: 700;
+    /*background-image: linear-gradient(red,blueviolet,green,black);*/
+
     border: 1px solid rgb(202, 250,234);
     padding: .7rem 1.2rem;
     border-radius: 8px;
 }
+label {
+    /* position */
+    position: fixed;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    /*arrange content*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*format*/
+    width: 5rem;
+    height: 2rem;
+    /*border: .3rem solid darkblue;*/
+    border-radius: 1rem 0 0 1rem;
+    background-color: rgba(196, 232, 200, 0.52);
+    color: rgba(166, 58, 205, 0.64);
+}
+label:hover {
+    background-color: #6DC990;
+}
+input[type="checkbox"] {
+    /* toggle */
+    display: none;
+}
+#sidebar {
+    /* toggle */
+    position: fixed;
+    right: -35rem ;
+    /* formatting */
+    height: 100vh;
+    width: 20vw;
+    background-color: rgba(221, 86, 75, 0.6);
+    border-right: 2px solid #ff6600;
+    /* transition */
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 1s;
+}
+
+input[type="checkbox"]:checked + #sidebar {
+    /* toggle */
+    right: 0;
+}
+
+
+

@@ -1,0 +1,59 @@
+html, body, aside, div, main,button, section{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1vw;
+    color: rgba(14, 191, 233, 0.55);
+    font-family: "Bitstream Vera Sans Mono";
+}
+h1{
+    font-size: 5rem ;
+}
+main{
+    height: 100vh;
+    display: flex;
+    /*flex-flow: column;*/
+    justify-content: flex-start;
+}
+aside{
+    flex-grow: 2;
+    /*width: fit-content;*/
+    border-right: 1px solid rgba(0,0,0,.25);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+aside div:first-child{
+    flex-grow: 2;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    /*border: 4px solid purple;*/
+}
+aside div:last-child{
+    flex-grow:1;
+    /*height: 100%;*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content:flex-end;
+    /*border: 4px solid yellow;*/
+}
+button{
+    margin: 0 2rem;
+    padding: 2rem;
+    font-size: 3rem;
+}
+button:hover {
+    background-color: rgba(139, 142, 147, 0.47);
+}
+section{
+    flex-grow: 4;
+    /*border: 2px solid blue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

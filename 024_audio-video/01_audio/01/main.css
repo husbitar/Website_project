@@ -1,0 +1,16 @@
+html, body {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+audio{
+    background-image: linear-gradient(blueviolet, brown);
+    border: 3px solid orange;
+}
